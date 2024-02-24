@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+	@apply w-full px-4 py-2 bg-gray-700 rounded-md focus:outline-none focus:border-2 focus:border-blue-500;
+}
+
+.submit_btn {
+	@apply w-full mt-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none uppercase;
+}
