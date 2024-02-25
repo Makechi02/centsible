@@ -1,0 +1,41 @@
+[
+	{
+		"category": "bills",
+		"subCategories": [
+			{
+				"allocated": 140,
+				"assigned": 0,
+				"period": "this month",
+				"spent": 20,
+				"title": "airtime"
+			},
+			{
+				"allocated": 4550,
+				"assigned": 0,
+				"period": "by the 13th",
+				"spent": 0,
+				"title": "rent"
+			},
+			{
+				"allocated": "140",
+				"assigned": 0,
+				"period": "this month",
+				"spent": 0,
+				"title": "internet"
+			}
+		]
+	},
+
+	{
+		"category": "needs",
+		"subCategories": [
+			{
+				"allocated": 210,
+				"assigned": 186,
+				"period": "this month",
+				"spent": 0,
+				"title": "groceries"
+			}
+		]
+	}
+]

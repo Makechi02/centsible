@@ -2,9 +2,10 @@
 
 import {useLayoutEffect} from "react";
 import {useRouter} from "next/navigation";
+import {AccountsHeader} from "@/components/accounts";
 
 const Home = () => {
-	const isLoggedIn = false;
+	const isLoggedIn = true;
 	const router = useRouter();
 
 	useLayoutEffect(() => {
@@ -13,6 +14,7 @@ const Home = () => {
 
 	return (
 		<div>
+			<AccountsHeader/>
 		</div>
 	)
 }
